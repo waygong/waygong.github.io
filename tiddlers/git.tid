@@ -1,0 +1,46 @@
+created: 20200531051142850
+modified: 20200531051152357
+tags: shell
+title: git
+type: text/vnd.tiddlywiki
+
+! 常用 git 設定
+```
+$ git config --global alias.br branch
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+$ cat ~/.gitconfig
+...
+[alias]
+    br = branch
+    co = checkout
+    ci = commit
+    st = status
+...
+```
+* 設定下面的 encoding 後，在 git bash for windows 裡面開 gitk 中文就不會亂碼了
+```
+$ git config user.name <username>
+$ git config user.email <email>
+$ git config --global gui.encoding utf-8
+$ cat .git/config
+[user]
+    email = <email>
+    name = <username>
+$ cat ~/.gitconfig
+...
+[gui]
+    encoding = utf-8
+...
+```
+* 再參考 [[GIT - 中文亂碼的問題 ｜ YuShu Hsiao - 點部落|https://dotblogs.com.tw/h20/2018/06/22/111411]] 設定後， git status 就不會亂碼了
+```
+$ git config --global core.quotepath false
+$ cat ~/.gitconfig
+...
+[core]
+    quotepath = false
+...
+```
+

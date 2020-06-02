@@ -1,0 +1,7 @@
+created: 20200531044603058
+modified: 20200531044625892
+tags: tiddlywiki-tiddler背景 $:/tags/Stylesheet bg4
+title: tiddler背景-4內部圖片
+type: text/vnd.tiddlywiki
+
+.tc-tagged-bg4 {background: url(這邊放入內部圖片的連結，此處略);}

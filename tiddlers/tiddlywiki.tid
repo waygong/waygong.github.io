@@ -1,0 +1,53 @@
+created: 20200531041630628
+modified: 20200531084941950
+tags: 目錄 app 待測試
+title: tiddlywiki
+type: text/vnd.tiddlywiki
+
+! 安裝
+* 安裝 Tiddlywiki，參考: [[TiddlyWiki 舞 — 基礎文件正體中文版|http://tw5-zh.tiddlyspot.com/]]
+! 用 github pages 和 tiddlywiki 產出靜態網站
+* 詳見: [[github pages+tiddlywiki]]
+! [[控制台|$:/ControlPanel]] 設定
+* 視覺外觀: 這邊可以調成不同顏色，用來識別，我的底色綠色是在這裡選的
+! 其他
+* tiddlywiki 可插入 [[圖片|tiddlywiki-圖片]]
+* tiddlywiki 可產出 [[目錄]] (參考: [[How to change the sort order of sub-branches in a TOC macro: TiddlyWiki Pre-release — 5.1.22-prerelease|https://tiddlywiki.com/prerelease/static/How%2520to%2520change%2520the%2520sort%2520order%2520of%2520sub-branches%2520in%2520a%2520TOC%2520macro.html]])
+* tiddlywiki 可更換各個 tiddler 的 [[背景|tiddlywiki-tiddler背景]]，參考:
+** [[is there a way to have an image in the background of tiddlers? - Google 網路論壇|https://groups.google.com/forum/#!topic/tiddlywiki/sktlPBmWdcg]]
+** [[[tw] Syntax for: "background-image: url( my local img tiddler );"|https://tiddlywiki.narkive.com/rtR8sAhy/tw-syntax-for-background-image-url-my-local-img-tiddler]]
+*** [[TiddlyWiki — a non-linear personal web notebook|https://tiddlywiki.com/#datauri%20Macro]]
+* 可以並排兩頁 tiddler: [[Tiddlers side-by-side : TiddlyWiki5|https://www.reddit.com/r/TiddlyWiki5/comments/exr7k5/tiddlers_sidebyside/]]
+** 範例: (裡面還做出類似 [[trello]] 的效果): [[Basic Muuri — a basic muuri storyview|https://burningtreec.github.io/tw5-muuri-view/]]
+! 巨集
+* [[TiddlyWiki 實用 macro：copy-block-1 ｜ 點字記|https://roulesophy.github.io/tiddlywiki-%E5%AF%A6%E7%94%A8-macro-copyblock1/]]
+! 嵌入物件
+* reddit 這邊有討論 [[Using iframe to embed google group on tiddlywiki site. : TiddlyWiki5|https://www.reddit.com/r/TiddlyWiki5/comments/5mbip1/using_iframe_to_embed_google_group_on_tiddlywiki/]]
+** 板友提供了嵌入 facebook、remember the milk、youtube 和 reddit 的範例: [[Embedding various iframes — a non-linear personal web notebook|https://tesseract-index.bitbucket.io/incomplete/embedding.html]]
+* [[How to embed PDF and other documents: TiddlyWiki Pre-release — 5.1.22-prerelease|https://tiddlywiki.com/prerelease/static/How%2520to%2520embed%2520PDF%2520and%2520other%2520documents.html]]
+! 其他安裝方式
+* 用建 server 的方式安裝 tiddlywiki
+** windows 也許可用 [[wsl]] + [[nvm]] + [[node.js]] (測試中)
+** 主要參考資料
+*** [[在GitLab Pages部署TiddlyWiki5 - 覆沉|http://renyuneyun.is-programmer.com/2018/6/5/deploy-tiddlywiki-on-gitlab-pages.212862.html]]
+*** 官網: [[TiddlyWiki — a non-linear personal web notebook|https://tiddlywiki.com/#Installing%20TiddlyWiki%20on%20Node.js]]
+** 其他參考資料
+*** [[通过Node.js运行TiddlyWiki5_tomggx的专栏-CSDN博客|https://blog.csdn.net/tomggx/article/details/78704921]]
+*** [[在VPS上运行TiddlyWiki - 驻足云端 ｜ Halt in Air|https://carecraft.github.io/language-instrument/2019/03/deploy_tiddlywiki_on_vps/]]
+! 相關書籍
+* [[TiddlyWiki維基寫作－知識管理最佳工具|https://www.kingstone.com.tw/basic/2013120084490?zone=book&lid=search&actid=WISE]]
+! tiddlywiki 大大們的網站/推薦文
+* 網站
+** [[點字記 ｜ 一點一滴的文字記綠，最終會變成海洋。|https://roulesophy.github.io/]]
+** [[TiddlyWiki 練功坊 - 本站版面、內容由土芭樂知識聯盟設計，系統原創於 Jeremy Ruston (TiddlyWiki 2.3.0)|http://tiddlywiki.tbala.net/]]
+** [[jeul's TiddlyWiki - 使用筆記|http://jeultw.tiddlyspot.com/]]
+** [[我的 TiddlyWiki 學習紀錄 - 將陸續發表TiddlyWiki的學習記錄、心得與使用經驗|http://jdev.tw/wiki/]]
+* 文章
+** [[獻曝者筆記: Tiddlywiki老而彌堅|https://drsposh.blogspot.com/2019/08/tiddlywiki.html]]
+*** 大大此篇 show 出的範例讓我心嚮往之，未來希望可效法這個方式，紀錄自己的閱讀筆記
+** [[獻曝者筆記: 《Tiddlywiki維基寫作：知識管理最佳工具》|https://drsposh.blogspot.com/2007/09/tiddlywiki.html]]
+** [[匯涓滴為巨流的技術：個人知識管理 施保旭|http://www-ws.gov.taipei/001/Upload/public/Attachment/1123017222128.pdf]]
+! 參考資料
+* [[如何避免 TiddlyWiki 變慢 ｜ Eucaly61's DIY World|https://eucaly61.blogspot.com/2009/04/tiddlywiki-slow.html]]
+* [[How to Get Chinese TiddlyWiki — Bram's Plone Site|http://bramchen.objectis.net/how-to-get-chinese-tiddlywiki]]
+* https://casinoqmc.net/PWT/hints.pdf

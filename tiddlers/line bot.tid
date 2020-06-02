@@ -1,0 +1,22 @@
+created: 20200531060938858
+modified: 20200531060945120
+tags: app
+title: line bot
+type: text/vnd.tiddlywiki
+
+* 參考 [[LineBot+Python，輕鬆建立聊天機器人 ｜ BlackMaple's Blog|https://yaoandy107.github.io/line-bot-tutorial/]]
+* 第一次設定好後，之後要執行的修改步驟:
+
+```
+WSL$ vim ./line-bot-tutorial-master/app.py
+cmd> heroku login
+cmd> git add -A
+cmd> git commit -m "Add code"
+cmd> git push -f heroku master
+```
+
+* 開啟視窗執行過 heroku login 後，未關閉下更新 app.py 只需再執行下面這一行即可更新
+
+```
+cmd> git add -A && git commit -m "Add code" && git push -f heroku master && start cmd /c "echo done && pause"
+```

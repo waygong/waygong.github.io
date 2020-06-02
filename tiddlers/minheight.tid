@@ -1,0 +1,9 @@
+created: 20200531044147993
+modified: 20200531044210053
+tags: tiddlywiki-tiddler大小 minheight $:/tags/Stylesheet
+title: minheight
+type: text/vnd.tiddlywiki
+
+.tc-tagged-minheight {
+min-height:600px;
+}

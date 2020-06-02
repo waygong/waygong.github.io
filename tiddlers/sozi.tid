@@ -1,0 +1,39 @@
+created: 20200531053021796
+modified: 20200531053036874
+tags: platform-windows app platform-linux platform-mac
+title: sozi
+type: text/vnd.tiddlywiki
+
+* (暫時沒看出怎用，先擱置)
+! 參考資料
+* 待測試
+** [[[sozi] Inkscape 的簡報外掛：sozi - Windows 7 安裝及注意事項 ｜ 中斷點 - 點部落|https://dotblogs.com.tw/rickyteng/archive/2013/07/24/112311.aspx]]
+* 官網
+** 安裝 from ppa (卡住，原因待查，可能是因為之前曾經用) [[Install Sozi on GNU/Linux|https://sozi.baierouge.fr/pages/install-linux.html]]
+*** [[sozi-release : Olivier Banus|https://launchpad.net/~sunab/+archive/ubuntu/sozi-release]]
+```
+$ sudo add-apt-repository ppa:sunab/sozi-release # 卡住，原因待查
+... (略)
+E: The repository 'http://ppa.launchpad.net/sunab/sozi-release/ubuntu bionic Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+$ echo $?
+100
+```
+** 安裝 from deb [[Installation|https://sozi.baierouge.fr/pages/install.html#installing-for-windows]]
+*** [[Release Sozi Release 19.04 · senshu/Sozi|https://github.com/senshu/Sozi/releases/tag/v19.04]]
+```
+$ sudo apt-get --purge remove sozi
+$ sudo add-apt-repository --remove ppa:sunab/sozi-release
+$ sudo apt update
+$ sudo dpkg -i sozi_19.04.22-1555944973_amd64.deb
+$ sudo apt update
+$ sudo apt install sozi
+$ sozi
+```
+* ... 結果打開不知怎使用...orz (待補)
+* [[玩具烏托邦: 專業免費簡報軟體 sozi (貴哥強力推薦; prezi 的替代品)|https://newtoypia.blogspot.com/2012/11/sozi.html]]
+** [[貴哥的 sozi 簡報/心智圖|https://user.frdm.info/ckhung/mm/]]
+** 待測試
+*** [[玩具烏托邦: 專業免費簡報軟體 sozi (貴哥強力推薦; prezi 的替代品)|https://newtoypia.blogspot.com/2012/11/sozi.html?showComment=1441770944588#c4607629915851123681]]
+**** 操作 [[Sozi 15 zooming presentation editor on Ubuntu 15.04 - YouTube|https://www.youtube.com/watch?v=4Ssb6dSuZvo]]

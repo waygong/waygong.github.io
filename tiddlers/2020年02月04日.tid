@@ -1,0 +1,16 @@
+created: 20200531055027389
+modified: 20200531055042675
+tags: 2020年02月 日誌
+title: 2020年02月04日
+type: text/vnd.tiddlywiki
+
+* 喜歡安裝各種軟體的來由
+** 一開始發現有 [[重灌狂人|https://briian.com/]] 這個軟體電腦網站，後來要跑資料省時間 google 到 [[batch|batch/powershell]]，再來發現 [[電腦玩物|https://www.playpcesor.com/]]，就常常看他的網站安裝很多有沒的軟體。看到他有一篇介紹 [[AlternativeTo 尋找一套你需要的軟體，替代工具服務搜尋評比|https://www.playpcesor.com/2011/01/alternativeto.html]] 驚為天人，就持續把聽過碰過的軟體都在 [[AlternativeTo - Crowdsourced software recommendations|https://alternativeto.net/]] 找出評分更高的軟體下載來玩玩看。
+** linux 的 [[shell]] 則是在資策會學的，覺得單一行指令可以做很多事很酷
+** 找問題一開始英文不好很不喜歡找英文的，後來發現找英文總比找中文但找不到答案要好，才開始慢慢習慣，也發現大家都推的 [[Stack Overflow - Where Developers Learn, Share, & Build Careers|https://stackoverflow.com/]] 常用較好的解答。真的不行 google 翻譯一下大略看第一次、第二次再看原文也省時間 XD
+** 再來發現 [[學會這 10 招，讓你輕鬆成為真正 Google 搜索達人！ ｜ TechOrange|https://buzzorange.com/techorange/2016/02/04/10-skills-of-search/]] 這篇，最有幫助的就是學會在指定網站內 google 的語法:
+```
+關鍵字 site:網站首頁網址
+```
+** 開始用 [[wsl]] 後發現比 cygwin 好，可以在 windows 下玩不少 [[shell]]，比灌雙系統或開 virtualbox 快&方便多了
+* 紀錄一下心得

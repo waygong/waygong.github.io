@@ -1,0 +1,45 @@
+created: 20200531041336927
+modified: 20200531041407814
+tags: 目錄
+title: batch/powershell
+type: text/vnd.tiddlywiki
+
+! 一些基本範例
+* [[[Batch#2] 三個方便的Windows批次檔範例 (初學者的命令行 #6) ｜ 簡睿隨筆 ｜ 學習過程的紀錄與備忘|http://jdev.tw/blog/6043/windows-batch-samples]]
+! 特殊技巧
+!! 點選執行寫好的指令
+* 參考 [[Jerry Y.H. Wu: 如何釘選.bat檔案到Windows工作列/開始功能表|https://jerryyh.blogspot.com/2018/01/batwindows.html]]，建捷徑後，內容由
+```
+C:\WINDOWS\system32\cmd.exe
+```
+改為
+
+```
+C:\WINDOWS\system32\cmd.exe cmd /c "echo 123 && pause"
+```
+即可看出成果
+
+* 再創一個 echo 456，把 echo 123 和 echo 456 都拉到工具列，就可以點選執行了 (缺點是 icon 需要換不一樣的避免搞混)，如下圖
+[img[20200129_114947.png]]
+
+!! 用檔案總管的網址列執行命令
+*參考: [[用檔案總管的網址列執行命令 ｜ 簡睿隨筆 ｜ 學習過程的紀錄與備忘|http://jdev.tw/blog/3328/run-command-in-explorers-address-bar]]
+! 一些指令
+* 在 batch 執行 powershell 指令
+```
+> Powershell.exe -executionpolicy -Command "echo 123"
+```
+* 取得硬碟大小 [[Get-PSDrive]]
+```
+> Powershell.exe -executionpolicy -Command "Get-PSDrive" | findstr /i /c:FileSystem /c:-- /c:Name
+```
+* 取得電腦名稱 [[wmic]]
+```
+> wmic computersystem get name
+```
+* 取得硬碟名稱 [[wmic]], [[findstr]]
+```
+> wmic volume get driveLetter, Label | findstr "^[A-Z]"
+```
+! 其他參考資料
+* [[DOS應用精解手冊（簡體書） - 三民網路書店|https://www.sanmin.com.tw/product/index/000867246]]

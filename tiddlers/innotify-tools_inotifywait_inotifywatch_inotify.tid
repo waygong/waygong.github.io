@@ -1,0 +1,13 @@
+created: 20200531051315503
+modified: 20200531061314464
+tags: shell api 待測試
+title: innotify-tools/inotifywait/inotifywatch/inotify
+type: text/vnd.tiddlywiki
+
+! 安裝
+```
+$ sudo apt install inotify-tools
+```
+! 參考資料
+* [[Linux文件監控工具——inotify-tools - 开发者知识库|https://www.itdaan.com/tw/e7ae76e39e5b]]
+* [[使用inotify-tools与rsync构建实时备份系统 - 暗无天日|http://blog.lujun9972.win/blog/2018/04/04/使用inotify-tools与rsync构建实时备份系统/]]

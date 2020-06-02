@@ -1,0 +1,12 @@
+created: 20200531051415620
+modified: 20200531051454006
+tags: shell app pdf
+title: pdfunite
+type: text/vnd.tiddlywiki
+
+! merge pdf files
+* cf. [[How to Merge PDF Files on Linux|https://linoxide.com/linux-how-to/merge-pdf-files-linux/]]
+```
+apt install poppler-utils
+pdfunite 1.pdf 2.pdf 3.pdf
+```

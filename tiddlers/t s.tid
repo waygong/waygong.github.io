@@ -1,0 +1,9 @@
+created: 20200531060741327
+modified: 20200531060801993
+tags: bookmarklet 移機注意事項
+title: t s
+type: text/vnd.tiddlywiki
+
+```
+javascript:(function(){var w = window.open(""); w.document.write(document.title+' '+location.href);})().html
+```

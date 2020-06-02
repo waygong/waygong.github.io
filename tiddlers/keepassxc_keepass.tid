@@ -1,0 +1,13 @@
+created: 20200531041958376
+modified: 20200531042013623
+tags: app platform-windows
+title: keepassxc/keepass
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* 首推這篇 [[節省工具箱 Jason Tools: 開源密碼管理軟體：KeePass|http://blog.jason.tools/2019/10/2020-ironman-28.html]]
+* 很重視隱私的網站 [[PrivacyTools 網路隱私工具- 加密對抗全球大規模監控|https://privacytools.twngo.xyz/index.html]]
+** [[密碼管理 ｜ PrivacyTools|https://privacytools.twngo.xyz/software/passwords/]]
+* 這邊是安裝版的步驟教學 [[現代人必備的KeePass Password Safe 帳號密碼管理工具 - 挨踢路人甲|https://walker-a.com/archives/3440]]
+! 其他參考資料
+* [[Keepass实现远程桌面(mstsc)自动登录 ｜ Sealin|https://sealin.net/2019/07/08/keepass-mstsc/]]

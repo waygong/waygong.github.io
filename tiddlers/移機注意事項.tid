@@ -1,0 +1,51 @@
+created: 20200531061410442
+modified: 20200531061419257
+title: 移機注意事項
+type: text/vnd.tiddlywiki
+
+! 備份/清除 舊電腦資料步驟
+* 電腦需交接給他人的情境
+** 登出本機軟體
+*** 登出 chrome 自己帳號、再檢查其他帳號的 首頁/起始頁面/瀏覽資料
+*** 登出 git (電腦版) (因為他帳密預設會存，所以平常 push 會發現不用輸入)
+*** input 新酷音輸入法: 使用者造詞>常用新詞>取消紀錄or刪除 ([[參考1|https://shinp.pixnet.net/blog/post/19516046]]、[[參考2|https://livejinju.com/solve-new-phonetic-chinese-keyboard-autocomplete-problem-on-windows-10/]])的電腦版紀錄
+
+*** 登出 line、並移除本機資料夾 ([[參考1|https://sofun.tw/line-pc-backup/]]、[[參考2|https://www.pkstep.com/archives/16318]])
+**** 和別人共用電腦的話要小心不要刪到別人
+** 移除 folder 備份 資料夾/檔案
+*** github page 靜態網頁路徑: 
+**** github.io/(images/)*
+**** github.io/index.html
+**** github.io/.git/config
+*** tiddlywiki 本機筆記路徑: note/tiddlywiki/localhost/*
+*** greenshot 截圖路徑: screenshot/(greenshot/)*
+** 登出 web 服務
+*** 登出 diigo
+*** 登出 Google Drive & 刪除本機資料夾
+* 電腦維修 需清乾淨的情境
+** 用 Win10 內建的重設功能 (完成清除) 清理電腦
+! 安裝/設定 新電腦步驟
+* chrome 設定
+** bookmark 書籤
+*** [[t s]]
+*** [[【【t｜s】】]] (tiddlywiki 用)
+** extension 擴充套件
+*** [[Chrome Remote Desktop|https://chrome.google.com/webstore/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=zh-TW]]
+*** [[Diigo Web Collector|https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh?hl=zh-TW]]
+*** [[OneTab|https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall]]
+* software 軟體安裝
+** [[FreeFileSync|https://freefilesync.org/]]
+** git ([[官網|https://git-scm.com/download/win]]、[[部落客簡介|https://gitbook.tw/chapters/environment/install-git-in-windows.html]])
+*** 如果是接別人電腦的話，要特別小心:
+**** 1. ~/.gitconfig 是否還是別人的 user/email
+**** 2. 呈 1.，是否刪除該設定檔? 若不刪除，每次 push 到自己 repository 都要小心不要把別人變作者...
+**** 3. 呈上，若不刪除務必在自己 repository 下執行以下指令以建立 .git/config 檔 (user_name 和 user_email 請換成自己的)
+```
+$ git config user.name user_name
+$ git config user.email user_email
+```
+** tiddlywiki 下載此網誌
+** WSL ([[保哥|https://blog.miniasp.com/post/2019/02/01/Useful-tool-WSL-Windows-Subsystem-for-Linux]]、[[Windows 官網安裝簡介|https://docs.microsoft.com/en-us/windows/wsl/install-win10]])
+* Windows 設定
+** 開啟休眠功能、調整動作設定 ([[官網|https://answers.microsoft.com/zh-hant/windows/forum/windows_10-start/%E5%8D%87%E7%B4%9Awin10%E5%BE%8C%E7%82%BA%E4%BD%95/081e227d-a97e-4319-a726-1c1ded999d02]])
+

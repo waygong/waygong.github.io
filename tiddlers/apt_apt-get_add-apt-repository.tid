@@ -1,0 +1,8 @@
+created: 20200531050914958
+modified: 20200531050921983
+tags: shell
+title: apt/apt-get/add-apt-repository
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* [[Ubuntu Linux 新增與移除 PPA 個人套件庫指令教學 - G. T. Wang|https://blog.gtwang.org/linux/ubuntu-linux-add-and-remove-ppa-command-tutorial/]]

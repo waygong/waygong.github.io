@@ -1,0 +1,38 @@
+created: 20200531045352831
+modified: 20200531045354826
+tags: code
+title: python
+type: text/vnd.tiddlywiki
+
+* python 開發環境
+** windows: 
+*** ''初學者'': 看 microsoft 這篇: [[開始在 Windows 上使用適用於初學者的 Python ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/python/beginners]]
+*** ''web 開發'': 看 microsoft 這篇: [[在 Windows 上使用 Python 進行 Web 開發 ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/python/web-frameworks]]
+**** 避開未來可能的路徑過長問題: [[在Windows底下最適當安裝Python環境的方法 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天|https://ithelp.ithome.com.tw/articles/10210071?sc=pt]]
+** 線上網頁: [[建構 Python 的開發環境 ｜ Going Learn：紀老師程式教學網|http://www.goinglearn.com.tw/programming-languages/167]]
+** web: [[repl.it]]、[[tutorialspoint]]
+** iOS: [[pythonista]]
+** Android: [[pydroid]]
+** 電腦軟體: (待補)
+* [[python相關課程]]
+* python 資源
+** pdf
+*** [[Python Taiwan FB 有人分享的 pdf|https://www.facebook.com/groups/pythontw/permalink/10158198472698438/]]
+** website
+*** [[Python 旋風之旅 from 保哥FB|https://www.facebook.com/will.fans/posts/2553985657963896]]
+**** [[doggy8088/A-Whirlwind-Tour-of-Python-zh-tw: A Whirlwind Tour of Python (正體中文版)|https://github.com/doggy8088/A-Whirlwind-Tour-of-Python-zh-tw]]
+*** [[上班族自學 Python、機器學習寶典！Kaggle 全新免費課程教你快速入門，且馬上能應用 ｜ TechOrange|https://buzzorange.com/techorange/2019/12/27/kaggle-new-free-courses/]]
+*** [[自學AI人工智慧機器學習──從零基礎到動手做 學習資源推薦不藏私 @ 旅居書簡 :: 痞客邦 ::|http://x60606.pixnet.net/blog/post/300451728]]
+*** [[Re: [心得] 自學AI資源分享 - 看板 DataScience - 批踢踢實業坊|https://www.ptt.cc/bbs/DataScience/M.1565639939.A.F2F.html]]
+*** [[在 Windows 上使用 Python 進行指令碼處理和自動化 ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/python/scripting]]
+** 影片
+*** [[BDE - YouTube|https://www.youtube.com/channel/UCUVVQX77-rLrOj_cLNYEXfA]]
+**** [[Python 101 零基礎幼幼班 - YouTube|https://www.youtube.com/watch?v=sfFRJ4jyfkk]]
+**** [[Python 101 應用幼幼班 - YouTube|https://www.youtube.com/watch?v=mcWBGfM_sxw]]
+*** [[[請益] python基礎課程詢問 - 看板 Soft_Job - 批踢踢實業坊|https://www.ptt.cc/bbs/Soft_Job/M.1564032444.A.016.html]]
+*** [[唐宇迪 唐 ｜ 机器学习工程师 ｜ Udemy|https://www.udemy.com/user/tang-yu-di/]]
+*** [[Re: [討論] 新手學機器學習和Python - 看板 NCTU_TALK - 批踢踢實業坊|https://www.ptt.cc/bbs/NCTU_TALK/M.1551688303.A.93C.html]]
+*** [[Python for Everybody ｜ Coursera|https://www.coursera.org/specializations/python]]
+! 參考資料
+* 原理
+** [[撥開 Python, pip, site-packages 的藍色蜘蛛網 💢 - Will Wang 王興謙 - Medium|https://medium.com/@will.wang/90e398bb3785]]

@@ -1,0 +1,7 @@
+created: 20200531044413811
+modified: 20200531044441985
+tags: tiddlywiki-tiddler背景 $:/tags/Stylesheet bg2
+title: tiddler背景-2線上圖片
+type: text/vnd.tiddlywiki
+
+.tc-tagged-bg2 {background: url(https://cdn.stocksnap.io/img-thumbs/960w/YYJBMNVN6Q.jpg);}

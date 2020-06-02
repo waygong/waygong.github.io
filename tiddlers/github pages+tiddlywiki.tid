@@ -1,0 +1,79 @@
+created: 20200531084618915
+modified: 20200531085133135
+tags: [[github pages]] tiddlywiki
+title: github pages+tiddlywiki
+type: text/vnd.tiddlywiki
+
+* (200531 更新) 改用 npm 方式 install，讓 tiddlywiki 各 tiddlier 各自為獨立檔案，方便版本管理，也避免未來單一 index.html 開啟緩慢問題
+
+! 用 github pages 和 tiddlywiki 產出靜態網站
+
+* ~~1. 將 [[tiddlywiki]] 網頁下載重命名成 index.html，參考: [[TiddlyWiki 舞 — 基礎文件正體中文版|http://tw5-zh.tiddlyspot.com/]]~~ (因改為一個 tilddier 一個檔案，故不再適用)
+* 1. 參考 [[Node.js: TiddlyWiki — a non-linear personal web notebook|https://tiddlywiki.com/static/Installing%2520TiddlyWiki%2520on%2520Node.js.html]] 安裝 tiddlywiki
+
+```
+$ git clone https://github.com/waygong/waygong.github.io.git
+$ sudo npm install -g tiddlywiki
+$ tiddlywiki waygong.github.io --init server
+$ tiddlywiki waygong.github.io --listen
+```
+
+* 2. 開啟 http://127.0.0.1:8080/ 即可編輯網頁
+
+(第 3. 點開始和官方不同)
+
+* 3. 產生 index.html，他會出現在 waygong.github.io/output/
+
+```
+$ tiddlywiki waygong.github.io --build index
+```
+
+* 4. 將 waygong.github.io/output/index.html 移到和其他 tiddlier 同資料夾
+
+```
+$ mv waygong.github.io/output/index.html waygong.github.io/tiddlers/index.html
+```
+
+* 5. 參考 [[doxygen - Can I have my GitHub Pages index.html in a subfolder of the repository? - Stack Overflow|https://stackoverflow.com/a/25327759]]，在 waygong.github.io/ 下產一個 index.html 檔讓他去讀 waygong.github.io/tiddlers/index.html，因為 github pages 會直接抓 repo 下面的 index.html，而非更深層的
+* 6. 再用 [[github pages]]，開一個 github 的 repository (要設為 public)，git push 上面的 index.html，就可以產生像這個網站的網站，參考: [[從零開始: 用github pages 上傳靜態網站|https://medium.com/進擊的-git-git-git/從零開始-用github-pages-上傳靜態網站-fa2ae83e6276]]
+* 7. 如何更新網站
+** 7-1. 下載 [[git|https://git-scm.com/download/]] 的電腦版
+** 7-2. 將 2. 的 git repository clone 到指定資料夾
+** 7-3. 在該資料夾下執行以下指令即可更新成功 (第一次會要求設定使用者名稱、email，和登入 github，之後就不用了)
+```
+$ git add -A && git commit -m "." && git push
+```
+*** 要更清楚一點 前後差別可以執行下面這個
+```
+$ ls -lh && git status && git add -A && git commit -m "." && git push && git status && ls -lh
+```
+** 7-4. 更新好後， chrome 瀏覽器會需要以下步驟才會顯示出更新後的網站
+*** 關閉該網站
+*** 清 cookie
+*** 重新開啟網站
+*** 再重新整理幾次
+* 8. 注意事項
+** 8-1. 之後每次換電腦更新文章前，請先記得拉另一台的紀錄下來
+```
+$ git pull
+```
+** 8-2. 如果忘記的話會有 conflict，若很亂的話可先把這台機器的文章內容存好文字檔，然後用下面指令清乾淨重新拉
+```
+$ git reset --hard HEAD^
+$ git pull
+```
+** 8-3. 拉完之後重新整理那個檔，發現這次改變都消失了，再把剛剛複製的文字貼回去，再用 7-4. 更新即可
+* 9. 結果
+** 9-1. 我的網站: https://waygong.github.io
+** 9-2. github pages 相對應的 github repository: https://github.com/waygong/waygong.github.io
+!! 補充
+* 呈 2.，我有試著把本來是 public 的 repository 改為 private，網頁就看不到了，後來再改回 private、清 cookie 後還是看不到，就只好備份整個資料夾、整個 repository 刪除、再重新 clone、複製進去、再 push (未知原因)
+! ~~B2. 在 iPhone 更新網站~~ (因改為一個 tilddier 一個檔案，故不再適用)
+
+* ~~1. 下載 Working Copy APP (需 $$)~~
+** ~~git clone 上面靜態網頁的 repository~~
+* ~~2. 下載 Quine APP (免費)~~
+* ~~3. 長按 Working Copy 中的 index.html，分享到 Quine~~
+* ~~4. 編輯好後，存回 Working Copy 再 git push 回去即完成更新~~
+!! ~~參考資料~~
+* ~~[[使用 Working Copy 在 iPad 上面更新博客 ｜ 一次随缘的更新 ｜ Spencer Woo|https://archive.spencerwoo.com/posts/2019/06/09/from-my-ipad.html]]~~

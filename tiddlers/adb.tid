@@ -1,0 +1,19 @@
+created: 20200531050810881
+modified: 20200531050830656
+tags: shell batch/powershell
+title: adb
+type: text/vnd.tiddlywiki
+
+* 取得螢幕解析度
+```
+adb shell wm size
+```
+* 取得螢幕密度
+```
+adb shell wm density
+```
+* ...
+```
+
+```
+cf. [[如何透過 adb command line 指令啟動 Android App – 科科和測試|https://kkboxsqa.wordpress.com/2014/08/20/%E5%A6%82%E4%BD%95%E9%80%8F%E9%81%8E-adb-command-line-%E6%8C%87%E4%BB%A4%E5%95%9F%E5%8B%95-android-app/]]

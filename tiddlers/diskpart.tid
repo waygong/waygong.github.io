@@ -1,0 +1,37 @@
+created: 20200531060246856
+modified: 20200531060257457
+tags: batch/powershell
+title: diskpart
+type: text/vnd.tiddlywiki
+
+* 【注意！】這個指令很危險，不清楚請勿操作喔！(用在格式化被保護的隨身碟 ... 不要格式化到硬碟了！這邊不負責喔！)
+* 1. 列出目前硬碟
+```
+> list disk
+```
+* 2. 選擇硬碟（''請小心！xxx 請換成要清的磁碟代號''）
+```
+> select disk xxx
+```
+* 3. 列出目前分割區
+```
+> list vol
+```
+* 4. 檢查剛才選中的硬碟是否是隨身碟
+```
+> detail disk
+```
+* 5. 列出目前硬碟
+```
+> clean
+```
+* 6. 建立磁碟分割
+```
+> Create partition primary
+```
+* 7. 格式化 (到了這行，要用滑鼠右鍵在磁碟上直接格式化也可)
+```
+> Format fs=NTFS Quick
+```
+! 參考資料
+* [[使用 Windows 10 命令指令來格式化 USB 隨身碟 - 電腦王阿達|https://www.kocpc.com.tw/archives/210275]]

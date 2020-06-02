@@ -1,0 +1,10 @@
+created: 20200531142139287
+modified: 20200531143043743
+tags: app platform-windows theme-遠端 theme-輸入法
+title: mobaxterm
+type: text/vnd.tiddlywiki
+
+* 很方便的 windows ssh client (gui)
+* ssh 時順便開啟 X11 功能，可以不用再安裝 xming 等 x11 server
+* ssh 開啟 remote gui 會遇到中文輸入法問題，如這篇 [[I have an issue with an X11 remote program (Java/X11/Motif) which does not accept keyboard input: everytime I press a keyboard key, nothing is written on the text field|https://mobaxterm.mobatek.net/documentation.html#6_2_6]] 和這篇 [[[問題] 如何在ssh開啟的x window中輸入中文 - 看板 Linux - 批踢踢實業坊|https://www.ptt.cc/bbs/Linux/M.1536170082.A.9FD.html]]，我用了一陣子也用不出來，就去安裝 chrome 和在 chrome 中可以輸入中文的擴充套件，暫時避開此問題: [[Google 輸入工具 - Chrome 線上應用程式商店|https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab?hl=zh-TW]]
+* 看上面 ptt 有人推薦看這篇來設定遠端的輸入法，但還沒時間試，先放著: [[如何優雅的在Windows 10上裝X - ITW01|https://itw01.com/27TLOEQ.html]]

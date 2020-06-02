@@ -1,0 +1,18 @@
+created: 20200531052221023
+modified: 20200531052245321
+tags: platform-windows platform-linux app
+title: boot-repair
+type: text/vnd.tiddlywiki
+
+* 若是和我一樣雙主機 (windows + ubuntu) 開機之後把開機選單用壞的話，可以用這個指令修復，這篇介紹的非常清楚: [[Boot Repair/Boot Repair Disk-能一键修复ubuntu启动/引导项的软件（告别命令行） – 软件No1|https://www.rjno1.com/boot-repair/]] (我是用他說的第二個方法，因為手邊有 ubuntu 開機隨身碟)
+* 安裝 boot-repair
+```
+$ sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+```
+* 啟動 boot-repair
+```
+$ sudo apt-get install -y boot-repair && boot-repair
+```
+* 接來來按說明點擊，重開機就可以修復了
+* 若是重開機後到一個 grub> 奇怪的地方。那就在重開機一次，進入 bios (通常是 F2，依電腦會不同，請 google，~~(不確定就 F2、F6、F8、F12、del 一起按多幾次 =>這個是我自己作法，不負責任 :P)~~
+* 然後到 bios 某個地方 (倒數第二個 tab 吧)，把 windows 設為第一個開機的選項、儲存離開重開機即可恢復正常

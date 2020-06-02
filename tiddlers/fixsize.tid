@@ -1,0 +1,10 @@
+created: 20200531044041150
+modified: 20200531044126425
+tags: tiddlywiki-tiddler大小 $:/tags/Stylesheet fixsize
+title: fixsize
+type: text/vnd.tiddlywiki
+
+.tc-tagged-fixsize {
+height:500px;
+width:300px;
+}

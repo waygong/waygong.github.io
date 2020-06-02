@@ -1,0 +1,26 @@
+created: 20200531050957457
+modified: 20200531051005851
+tags: shell
+title: corntab/corn/at/atd
+type: text/vnd.tiddlywiki
+
+! 如果是 Windows 環境
+* 1. 安裝 WSL (詳見 [[wsl]])
+* 2. 開啟 cmd 並執行 WSL
+```
+> wsl
+```
+! crontab/corn
+```
+$ ps aux | grep [c]ron || sudo /etc/init.d/cron start
+$ corntab -l
+```
+!at/atd
+```
+$ ps aux | grep [a]t || sudo /etc/init.d/atd start
+$ dpkg -S xeyes | awk -F':' '{print $1}' | xargs apt list --installed || sudo apt install xeyes
+$ echo "sleep 5; DISPLAY=$DISPLAY xeyes" | at now
+$ echo "DISPLAY=$DISPLAY xeyes" | at now + 1 minute
+```
+! 參考資料
+* [[crontab 開機自動執行指令|https://www.opencli.com/linux/crontab-autorun-command-boot]]

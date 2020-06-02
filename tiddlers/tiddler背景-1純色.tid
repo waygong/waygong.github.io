@@ -1,0 +1,7 @@
+created: 20200531044327478
+modified: 20200531044353899
+tags: tiddlywiki-tiddler背景 $:/tags/Stylesheet bg1
+title: tiddler背景-1純色
+type: text/vnd.tiddlywiki
+
+.tc-tagged-bg1 {background: #cd853f;}

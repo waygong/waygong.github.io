@@ -1,0 +1,26 @@
+created: 20200531143235893
+modified: 20200531143758545
+tags: theme platform-linux
+title: theme-輸入法
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* [[第 10 天：在 elementary OS 上安裝/設定中文輸入法 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天|https://ithelp.ithome.com.tw/articles/10192648]]
+* [[玩具烏托邦: 在 antix 17 裡面安裝中文輸入法|https://newtoypia.blogspot.com/2017/12/antix-17-input-method.html]]
+
+! 指令
+* 先貼一些關鍵指令有空再整理
+** locale
+** sudo check-language-support
+** sudo apt install  language-pack-zh-hant*
+** ibus
+*** sudo apt install ibus-chewing
+*** sudo apt install ibus-gtk3
+*** sudo ibus-setup
+** fcitx
+*** sudo apt install software-properties-common
+*** sudo add-apt-repository ppa:fcitx-team/stable
+*** sudo apt update
+*** sudo apt install fcitx
+*** sudo apt install fcitx-chewing
+** im-config

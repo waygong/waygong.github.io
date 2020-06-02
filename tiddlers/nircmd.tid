@@ -1,0 +1,18 @@
+created: 20200531052812817
+modified: 20200531052838476
+tags: platform-windows 待測試 app batch/powershell
+title: nircmd
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* 官網: [[NirCmd - Windows command line tool|https://nirsoft.net/utils/nircmd.html]]
+* 精選
+** [[NirCmd-v2.52使用說明中文譯本 - 台部落|https://www.twblogs.net/a/5c21e798bd9eee16b4a762e9]]
+** [[NirCmd介绍_Greless的后花园-CSDN博客|https://blog.csdn.net/greless/article/details/52267572]]
+** [[NirCmd v2.37帮助文档中文译本 - 程序园|http://www.voidcn.com/article/p-sybpxclx-gw.html]]
+** [[NirCmd 参数中文帮助 - 程序园|http://www.voidcn.com/article/p-exmsusvt-gw.html]]
+** [[NirCmd v2.37帮助文档中文译本（一） - 程序园|http://www.voidcn.com/article/p-ytzxvmjj-rr.html]]
+** [[NirCmd v2.37帮助文档中文译本（二） - 程序园|http://www.voidcn.com/article/p-ekjmyqcl-rr.html]]
+** [[NirCmd v2.37帮助文档中文译本（三） - 程序园|http://www.voidcn.com/article/p-nbkjokys-rr.html]]
+* 好用方法
+** [[[心得] 習慣關螢幕,但DP介面關了電源圖示亂跑解 - 看板 LCD - 批踢踢實業坊|https://www.ptt.cc/bbs/LCD/M.1534127684.A.4E8.html]]

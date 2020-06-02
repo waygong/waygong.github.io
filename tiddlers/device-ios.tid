@@ -1,0 +1,14 @@
+created: 20200531055319210
+modified: 20200531055326197
+tags: device
+title: device-ios
+type: text/vnd.tiddlywiki
+
+! 電池
+* [[iPhone 電池更換 - 官方的 Apple 支援|https://support.apple.com/zh-tw/iphone/repair/service/battery-power]]
+* [[查看服務和支援保固狀態 - Apple 支援|https://checkcoverage.apple.com/tw/zh/]]
+* [[Apple 正開始阻止第三方電池更換服務，即使使用真原廠電池也一樣 - 電腦王阿達|https://www.kocpc.com.tw/archives/273702]]
+! 備份
+* [[在 PC 上的 iTunes 中備份您的 iOS 或 iPadOS 裝置 - Apple 支援|https://support.apple.com/zh-tw/guide/itunes/itns3280/windows]]
+** 下載&安裝 [[iTunes - Apple (台灣)|https://www.apple.com/tw/itunes/]]
+*** 不想登入 microsoft 帳號的話可以滑到下面點 Windows，就可以下載 .exe 的安裝檔來安裝

@@ -1,0 +1,14 @@
+created: 20200531051818193
+modified: 20200531051825156
+tags: shell
+title: vim
+type: text/vnd.tiddlywiki
+
+! 命令模式 Esc
+* `:nu`：顯示行號
+* `:set paste`：貼上多行資料前執行
+* `gg`：跳到第一行
+* `G`：跳到最後一行
+! 編輯模式 i
+! 選取模式 v
+! 取代模式

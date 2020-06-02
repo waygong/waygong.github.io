@@ -1,0 +1,19 @@
+created: 20200531050415255
+modified: 20200531050457767
+tags: [[sql gui]] 待補充 app platform-windows platform-linux platform-mac
+title: dbeaver
+type: text/vnd.tiddlywiki
+
+! 一些好用的設定
+# 開專案 (待補)
+# 開好專案後，建立常用/按日期分類資料夾 (待補)
+# 模板設定 (待補)
+## 參考: [[SQL Templates · dbeaver/dbeaver Wiki|https://github.com/dbeaver/dbeaver/wiki/SQL-Templates]]
+# 預開檔案設定
+## 先開好當日的1個檔案，打好最常用模板的縮寫 (先不要 tab，等用到再 tab 自動完成，這樣比較快)，檔名範例: ''0202-暫存.sql''
+## 複製列上9個檔案，這樣就會有 ''0202-暫存-1.sql'' ... ''0202-暫存-9.sql''
+## 將共 10 個檔案關連到常用的資料庫
+### 參考: [[Default Data Source in SQL Editor · Issue #5318 · dbeaver/dbeaver|https://github.com/dbeaver/dbeaver/issues/5318]]
+# 自動刪除空白檔案設定 (待補)
+! 未整理的參考資料
+* [[DBeaver调整编辑窗口字体大小丶一个站在Java后端设计之路的男青年个人博客网站|https://www.liangzl.com/get-article-detail-129647.html]]

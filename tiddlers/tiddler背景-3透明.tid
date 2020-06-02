@@ -1,0 +1,7 @@
+created: 20200531044458443
+modified: 20200531044529249
+tags: tiddlywiki-tiddler背景 $:/tags/Stylesheet bg3
+title: tiddler背景-3透明
+type: text/vnd.tiddlywiki
+
+.tc-tagged-bg3 {background: url();}

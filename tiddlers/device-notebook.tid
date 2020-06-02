@@ -1,0 +1,27 @@
+created: 20200531055350794
+modified: 20200531055359275
+tags: device
+title: device-notebook
+type: text/vnd.tiddlywiki
+
+! 記憶體
+* 因為聽說記憶體會挑主機版，所以是預計都買網路上有人裝過 ok 的
+* 買的時候要注意: 桌上型/筆記型、DDR2/DDR3/DDR4/...、是否近期價格比以前高太多 (正在高點) 等等，其他請見 [[device-記憶體]] 的參考資料
+* acer swift 3 SF314-52G (未裝記憶體，待測試，預計買美光的 DDR4 2400)
+** 打去直營店問，拆機幫裝我買的記憶體要 $600，好吧...自己裝看看 (還在保固內)
+** [[warranty inquiry (保固資訊查詢)|https://www.acer.com/ac/zh/TW/content/warranty-inquiry]]
+** 記憶體不好裝
+*** [[ACER Swift 3 SF314-52G expanded memory 8 G 記憶體 安裝 擴充 教學 - YouTube|https://www.youtube.com/watch?v=AOc3AH9fpmU]]
+*** [[升級一波 ACER swift SF314-52G 加裝 美光 8g記憶體 DDR4-2400 教學 – Avada Creative|https://lbsklife.com/2018/10/1047]]
+** 其他拆機教學
+*** [[求救拆解ACER SF314-52G背蓋教學 - Mobile01|https://www.mobile01.com/topicdetail.php?f=232&t=5477827]]
+*** [[acer sf314-54G拆解，更换nvme 1.3 SSD，全网首拆-中关村在线笔记本论坛|http://bbs.zol.com.cn/nbbbs/d218_109304.html]]
+*** [[【開箱】ACER SF314-54G 輕薄筆電，全新姿態，紅與粉的獨特風格 附改裝1TB硬碟或SSD教學 - Mobile01|https://www.mobile01.com/topicdetail.php?f=232&t=5521488]]
+*** [[[ 開箱 ] 心得 acer swift 3 SF314-54G-52C6 揮別 hp probook 4421s 的九年照顧 – Avada Creative|https://lbsklife.com/2018/10/1008]]
+* toshiba R930 (已裝記憶體 (金士頓 DDR3 1600)，目前沒問題，下面有型號)
+** 記憶體很好裝
+** 將本來的 4G 記憶體拔掉，改裝 金士頓 KVR16LS11/8 8G 的 DDR3 1600 (低電壓，1.35v => 我還不確定這樣是不是可以稱做 DDR3L)，目前使用順暢。因為習慣網頁開到10個以上，8G 還是比較夠用 (按 Ctrl+Shift+Esc 再點效能，就可以看到目前的記憶體用量，來判斷自己是否需要買)
+** 參考資料
+*** [[[DIY] Toshiba R930筆電 升級4G記憶體成8G記憶體 20160514 [宅爸詹姆士] - YouTube|https://www.youtube.com/watch?v=dbbC9W7rSOo]]
+*** [[💻 ⌨️ 🖥 [DIY] 自己升級TOSHIBA R930筆電記憶體 8GB+8GB=16GB 20160601 [宅爸詹姆士] - YouTube|https://www.youtube.com/watch?v=pGcFWHLwDj8]]
+*** [[[討論] Toshiba R930 升級記憶體 - 看板 nb-shopping - 批踢踢實業坊|https://www.ptt.cc/bbs/nb-shopping/M.1455187464.A.DBE.html]]

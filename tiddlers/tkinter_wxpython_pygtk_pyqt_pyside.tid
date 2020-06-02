@@ -1,0 +1,10 @@
+created: 20200531055634817
+modified: 20200531055729252
+tags: pygtk pyqt tkinter pyside wxpython
+title: tkinter/wxpython/pygtk/pyqt/pyside
+type: text/vnd.tiddlywiki
+
+! 打算
+* 先試 [[tkinter]]，再試 [[wxpython]]，其他先不學
+! 參考
+* [[Python图形界面库（GUI）各类库的优缺点简介_goog_man的博客-CSDN博客|https://blog.csdn.net/goog_man/article/details/88057287]]

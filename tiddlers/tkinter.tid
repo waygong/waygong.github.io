@@ -1,0 +1,37 @@
+created: 20200531055932991
+modified: 20200531055934365
+tags: app python
+title: tkinter
+type: text/vnd.tiddlywiki
+
+! tkiner 簡介
+* 概念看這篇: [[Python GUI之tkinter概述_血色@残阳的专栏-CSDN博客|https://blog.csdn.net/yingshukun/article/details/53985080]]
+* 用法、範例看這篇: [[Python GUI之tkinter窗口视窗教程大集合（看这篇就够了）_weixin_33739541的博客-CSDN博客|https://blog.csdn.net/weixin_33739541/article/details/93964322]]
+! hello thinter
+* 先在 OS 下載 thinter (此處以 WSL/Ubuntu 為例)
+```
+$ sudo apt install python3-tk
+```
+* 執行寫好的 hello.py
+
+```
+$ python3 hello.py
+```
+* hello.py 內容如下
+```
+# 0. start
+import tkinter
+root=tkinter.Tk()
+# 1. title
+root.title("Hello")
+# 3. size
+root.geometry("200x100")
+# 2. content
+label=tkinter.Label(root, text="Hello World!")
+label.pack()
+# 99. end
+root.mainloop()
+```
+! 參考資料
+* [[小狐狸事務所: Python 內建 GUI 模組 tkinter 測試 (一) : 建立視窗|https://yhhuang1966.blogspot.com/2016/05/python-gui-tkinter.html]]
+* [[Day28-Build python GUI using tkinter - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天|https://ithelp.ithome.com.tw/articles/10227110]]

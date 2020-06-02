@@ -1,0 +1,47 @@
+created: 20200531051909628
+modified: 20200531052026301
+tags: wsl keepassxc/keepass batch/powershell
+title: wsl+powershell+keepassxc
+type: text/vnd.tiddlywiki
+
+! run powershell & wsl on keepassx (在 keepassxc 中執行 powershell 和 wsl 的設定方法)
+* (2020/02/10 更新) 後來發現下面做法是每行指令單獨開，因此還需解決參數傳遞的問題，還在研究中... 我的版本好像不能用 wslenv，還在考慮用 wsl 的 mktemp 指令和產出的檔案來做橋梁 (待測試)
+** 參考資料: [[Windows 與 Linux 的互通性 ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/wsl/interop]]
+* 花了好幾個小時，才找到這個方法 (喘...一開始還用錯方向，想用 batch 來跑，後來發現不能 batch 一次執行多行指令，才找到 powershell 可以一次執行多行指令的方法，實在是不容易 XD)
+* 結論是可以用 keepass (跨平台的新版叫做 keepassxc) 跑 powershell + wsl (windows 下的 shell)，滑鼠點擊就可以執行了。
+* (初步想法，待測試) 再從 postman 找出相對應的 curl 指令填入，再把參數填入 keepass 的帳號或密碼欄位，滑鼠點擊搭配 shunit2 就可以執行 api 測試
+!! 步驟
+* 1. 編輯指令
+
+** 網址那欄填:
+```
+cmd://powershell.exe -command "{NOTES}"
+```
+** 如下圖
+[img[20200208_211916.png]]
+
+** 附註那欄填:
+
+```
+start powershell {
+  wsl date; 
+  wsl pwd;
+  pause;
+}
+```
+* 2. 編輯完如下圖
+[img[20200208_212427.png]]
+
+* 3. 執行完如下圖
+
+[img[20200208_212600.png]]
+
+* 4. 點網址那邊就會問你要不要執行，確定就執行了~ 從上面可以看出，用這個方法可以安全的儲存常用的密碼，還可以交錯使用 powershell 和 wsl 的指令，太讚啦!!
+! 參考資料
+* [[PowerShell launch script in new instance - Stack Overflow|https://stackoverflow.com/a/40760777]]
+* keepass 官網
+** [[URL Field Capabilities - KeePass|https://keepass.info/help/base/autourl.html]]
+** [[Placeholders - KeePass|https://keepass.info/help/base/placeholders.html]]
+* keepass 中文網
+** [[URL字段功能 ｜ keepass中文网|https://www.keepass.com.cn/helpdoc/304.html]]
+** [[占位符 ｜ keepass中文网|https://www.keepass.com.cn/helpdoc/270.html]]

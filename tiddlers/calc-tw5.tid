@@ -1,0 +1,11 @@
+created: 20200531043624497
+modified: 20200531043635136
+tags: from-gt6796c
+title: calc-tw5
+type: text/vnd.tiddlywiki
+
+* [[gt6796c TW5 Plugins —|https://gt6796c.github.io/]]
+
+<$calculator equation=".05 + .25
+.25/.65
+"></$calculator>

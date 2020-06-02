@@ -1,0 +1,15 @@
+created: 20200531051841040
+modified: 20200531053138943
+tags: shell platform-linux platform-windows app
+title: wsl
+type: text/vnd.tiddlywiki
+
+! 安裝
+* wsl
+** 官網 [[在 Windows 10 上安裝適用於 Linux 的 Windows 子系統 (WSL) ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/wsl/install-win10]]
+** 保哥: [[All posts tagged 'WSL' ｜ The Will Will Web|https://blog.miniasp.com/?tag=WSL]]
+*** [[介紹好用工具：WSL (Windows Subsystem for Linux) ｜ The Will Will Web|https://blog.miniasp.com/post/2019/02/01/Useful-tool-WSL-Windows-Subsystem-for-Linux]]
+
+* wsl2
+** 官網 [[安裝 WSL 2 ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/wsl/wsl2-install]]
+** [[Windows 10 WSL 2（Windows Subsystem for Linux）的安裝步驟 ｜ 簡睿隨筆 ｜ 學習過程的紀錄與備忘|http://jdev.tw/blog/6076/windows-10-wsl-2-installation]]

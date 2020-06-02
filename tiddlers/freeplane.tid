@@ -1,0 +1,34 @@
+created: 20200531052320414
+modified: 20200531052348659
+tags: platform-windows platform-linux platform-mac app
+title: freeplane
+type: text/vnd.tiddlywiki
+
+! 個人化設定
+* 1. 參考 [[google雲端硬碟]] 的個人化設定先建好資料夾，再建立 googledrive.mm 和 使用者名稱.mm 在下面位置，讓檔案路徑可以統一，也方便在 freeplane 中檔案的相對應路徑容易被找到
+** 其中 locked 那個先加好密碼再放到雲端
+```
+D:/
+└── googledrive (如果是用個人版的 Backup and Sync / Google 備份與同步處理)
+    ├── 使用者名稱/
+    └── file/
+        ├── 2020/
+        │   └── 202002/
+        ├── googledrive-使用者姓名.mm
+        └── googledrive-locked-使用者姓名.mm
+G:/ (如果是用公司版的 Drive File Stream / Google Drive 雲端硬碟檔案串流)
+    ├── 使用者名稱/
+    └── file/
+        ├── 2020/
+        │   └── 202002/
+        ├── googledrive-使用者姓名.mm
+        └── googledrive-locked-使用者姓名.mm
+```
+* 2. 預設心智圖結構
+<$tidgraph start="googledrive-使用者名稱" />
+
+* 3. 其他個人化設定
+** 檢視>圖示>小圖示工具列
+** 檢視>控制>篩選器工具列
+** 編輯>節點屬性>編輯屬性於內嵌編輯列 (或右鍵>編輯屬性於內嵌編輯列) (或 Alt+F9)
+** 檢視>Advanced Interface (''不選這個的話有些功能不會顯示出來!!'' (例如節點互向的內部連結，找超久才發現是這個原因...)

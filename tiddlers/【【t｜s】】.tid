@@ -1,0 +1,9 @@
+created: 20200531060711090
+modified: 20200531060717734
+tags: bookmarklet
+title: 【【t｜s】】
+type: text/vnd.tiddlywiki
+
+```
+javascript:(function(){var w = window.open(""); w.document.write('[['+document.title+'|'+location.href+']]');})().html
+```

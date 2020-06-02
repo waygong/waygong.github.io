@@ -1,0 +1,10 @@
+created: 20200531055104757
+modified: 20200531084915605
+tags: 2020年02月
+title: 2020年02月01日
+type: text/vnd.tiddlywiki
+
+* 紀錄一下目前三種情境對應的筆記方式
+** 【個人筆記】今天想到可以用 [[googlddrive+tiddlywiki+keepassxc]] 來當個人加密筆記+雲端同步備份，覺得很棒。
+** 【個人網站】之前是用 [[github pages+tiddlywiki]] 產出這個網站，現在個人加密筆記也可以用這個方式來寫了。
+** 【工作用】至於工作上的分享，預計先維持用 google 雲端硬碟的某個資料夾來共享、裡面放 google 文件來寫一個個主題，因為帳號權限的管理還是 google 比較方便。

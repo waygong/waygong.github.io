@@ -1,0 +1,10 @@
+created: 20200531041757084
+modified: 20200531052753612
+tags: tiddlywiki google雲端硬碟 keepassxc/keepass
+title: googlddrive+tiddlywiki+keepassxc
+type: text/vnd.tiddlywiki
+
+* 這應該是一個很簡單的個人加密筆記+雲端同步備份的方案了。
+** [[tiddlywiki]]: 方便連結各單項筆記
+** [[keepassxc/keepass]]: 用''附加檔案''的方式，做 tiddlywiki 單檔的版本管理 (不用取名、按建立日期倒序排列即可)
+** [[google雲端硬碟]]: 建好 keepassxc 資料庫檔案並設好密碼後，下載 google 雲端硬碟 的桌面版本，就可以即時將 keepassxc 的更新同步上去，就可以享受 google 雲端硬碟的便利、和 keepassxc 的隱私。

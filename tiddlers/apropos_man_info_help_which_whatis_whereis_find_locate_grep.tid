@@ -1,0 +1,14 @@
+created: 20200531050851137
+modified: 20200531050859895
+tags: shell
+title: apropos/man/info/help/which/whatis/whereis/find/locate/grep
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* [[五、Linux常用命令之文件搜索篇（which、whereis、find、locate、grep、man、info、whatis、--help、apropos、help）_Kris，Ready Always!-CSDN博客|https://blog.csdn.net/yiliumu/article/details/20579551]]
+! find
+* 找出一天內急遽增大的檔案 (debug 用)
+```
+$ find / -mtime -1 -size +1G 2>/dev/null | xargs ls -lh
+```
+cf. [[[find] 活用 find 指令參數-atime -Btime -ctime -mtime 限制尋找時間 @新精讚|http://n.sfs.tw/content/index/10905]]

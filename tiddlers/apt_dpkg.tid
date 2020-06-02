@@ -1,0 +1,9 @@
+created: 20200531050934104
+modified: 20200531050941534
+tags: shell
+title: apt/dpkg
+type: text/vnd.tiddlywiki
+
+```
+$ dpkg -S xeyes | awk -F':' '{print $1}' | xargs apt list --installed || sudo apt install xeyes
+```

@@ -1,0 +1,12 @@
+created: 20200531060157371
+modified: 20200531060227744
+tags: batch/powershell
+title: cmdkey
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* 官網 [[cmdkey ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows-server/administration/windows-commands/cmdkey]]
+* [[cmd /C set variable - Stack Overflow|https://stackoverflow.com/questions/27324764/cmd-c-set-variable/27360964#27360964]]
+* [[批次修改Windows記憶密碼-黑暗執行緒|https://blog.darkthread.net/blog/change-stored-passwords-in-batch/]]
+* [[Keepass实现远程桌面(mstsc)自动登录 ｜ Sealin|https://sealin.net/2019/07/08/keepass-mstsc/]]
+* [[net use 批次檔 記錄密碼明碼問題 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天|https://ithelp.ithome.com.tw/questions/10184898]]

@@ -1,0 +1,25 @@
+created: 20200531051515651
+modified: 20200531051528650
+tags: shell python
+title: pip3/pip
+type: text/vnd.tiddlywiki
+
+! 安裝
+```
+$ sudo apt-get install python3-pip
+```
+! 安裝套件
+```
+$ pip3 install numpy
+$ pip3 install numpy==1.12
+$ pip3 install numpy>=1.12
+```
+! 反安裝套件
+```
+$ pip3 uninstall numpy
+```
+! 參考資料
+* 比較
+** [[pip 與 pip3 區別 - IT閱讀|https://www.itread01.com/content/1541602567.html]]
+* 安裝
+** [[PIP|http://pre.tir.tw/077/PiP.html]]

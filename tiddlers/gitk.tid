@@ -1,0 +1,14 @@
+created: 20200531051222762
+modified: 20200531051250382
+tags: git app platform-linux
+title: gitk
+type: text/vnd.tiddlywiki
+
+* 設定下面的 encoding 後，在 git bash for windows 裡面開 gitk 中文就不會亂碼了
+```
+$ git config gui.encoding utf-8
+$ cat .git/config
+...
+[gui]
+    encoding = utf-8
+```

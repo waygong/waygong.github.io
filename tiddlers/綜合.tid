@@ -1,0 +1,14 @@
+created: 20200531035913055
+modified: 20200531084955816
+tags: 目錄
+title: 綜合
+type: text/vnd.tiddlywiki
+
+* [[disqus/facebook comment/jetpack/commentbox.io]]: 網站留言系統
+* GettingStarted: 網站首頁要 show 出的頁面
+* [[github pages+tiddlywiki]]: 免費靜態網頁+電腦發布
+* [[googlddrive+tiddlywiki+keepassxc]]: 個人加密筆記+雲端同步備份
+* [[python+mysql]]: DBA 自動化
+* [[tkinter+batch/shell/app]]: OP 自動化
+* [[tkinter/wxpython/pygtk/pyqt/pyside]]: 用 python 建立 gui 介面的選擇
+* [[移機注意事項]]

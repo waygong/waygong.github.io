@@ -1,0 +1,8 @@
+created: 20200531060319296
+modified: 20200531060325450
+tags: batch/powershell
+title: findstr
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* [[windows - Doing logical OR comparisons with findstr.exe - Server Fault|https://serverfault.com/questions/123483/doing-logical-or-comparisons-with-findstr-exe]]

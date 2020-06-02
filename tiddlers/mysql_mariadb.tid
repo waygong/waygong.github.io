@@ -1,0 +1,48 @@
+created: 20200531050223800
+modified: 20200531121545917
+tags: sql
+title: mysql/mariadb
+type: text/vnd.tiddlywiki
+
+! 建置本機環境
+
+|1. 下載 mariadb|https://downloads.mariadb.org/|
+|2. 選 stable 版|[img[20200531_200342.png]]|
+|3. 安裝過程下一步下一步會問密碼，utf-8 勾一下 (待確認)|[img[20200531_200555.png]]|
+|4. 安裝後要重開機|[img[20200531_200754.png]]|
+|5. 命令提示字元打開執行以下指令，即可用 gui 接手 (ex. dbeaver, heidisql 等)，預設資料庫名稱是 mysql|`> cd C:\Program Files\MariaDB 10.4\bin mysql -h localhost -u root -p`|
+
+! 易錯
+* max 和 min 和 limit 一起用會有問題，請小心! 參考: [[MySQL中limit与max同时使用时查询为空的情况 - EasonJim - 博客园|https://www.cnblogs.com/easonjim/p/7966943.html]]
+! 忘記密碼
+** 參考資料
+*** [[【数据库-MySql】windows下重启mysql的方法_少莫千华-CSDN博客|https://blog.csdn.net/chenlu5201314/article/details/80017115]]
+*** [[MySQL——修改root密码的4种方法(以windows为例)_Mysql_脚本之家|https://www.jb51.net/article/39454.htm]]
+*** [[MySQL5.7更改密码时出现ERROR 1054 (42S22): Unknown column password in field list_u010603691的专栏-CSDN博客|https://blog.csdn.net/u010603691/article/details/50379282]]
+
+```
+> net stop mysql
+> mysql
+MariaDB [(none)]> use mysql;
+MariaDB [mysql]> update user set authentication_string=password("123") where user="root";
+MariaDB [mysql]> \q
+>
+```
+
+! 用 表格/欄位 的 名稱/註解 找到自己要的
+
+```
+;select tab.table_schema as database_name, 
+tab.table_name, table_comment,
+column_name, column_comment
+from information_schema.tables as tab
+    inner join information_schema.columns as col
+        on col.table_schema = tab.table_schema
+            and col.table_name = tab.table_name
+            and tab.table_name like '%%'
+            and tab.table_comment like '%%'
+            and column_name like '%%'
+            and column_comment like '%%'
+where tab.table_type = 'BASE TABLE' and tab.TABLE_SCHEMA = 'db_name'
+order by tab.table_name, column_name;
+```

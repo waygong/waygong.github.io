@@ -1,0 +1,20 @@
+created: 20200531052449887
+modified: 20200531052611849
+tags: platform-windows app platform-linux platform-mac
+title: inkscape
+type: text/vnd.tiddlywiki
+
+* (暫時沒看出怎用，先擱置)
+! 參考資料
+* 安裝
+** 官網
+*** windows [[Inkscape 0.92.4 - Windows : 64-bit : exe ｜ Inkscape|https://inkscape.org/zh-hant/release/inkscape-0.92.4/windows/64-bit/exe/dl/]] (安裝 sozi 插件沒有成功，先略過)
+*** linux [[Inkscape Stable : “Inkscape Developers” team|https://code.launchpad.net/~inkscape.dev/+archive/ubuntu/stable]]
+```
+$ sudo add-apt-repository ppa:inkscape.dev/stable
+$ sudo apt-get update
+$ sudo apt install inkscape
+$ inkscape
+```
+**** (也暫時沒看到哪裡可以安裝 sozi 插件，先略過orz)
+

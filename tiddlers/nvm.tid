@@ -1,0 +1,8 @@
+created: 20200531051343943
+modified: 20200531051406157
+tags: shell
+title: nvm
+type: text/vnd.tiddlywiki
+
+! 參考資料
+* [[在 WSL 2 上設定 NodeJS ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/nodejs/setup-on-wsl2]]

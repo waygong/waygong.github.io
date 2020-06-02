@@ -1,0 +1,15 @@
+created: 20200531051044829
+modified: 20200531051122669
+tags: shell app 待測試 batch/powershell
+title: dos2unix/unix2dos
+type: text/vnd.tiddlywiki
+
+* [[參考|https://blog.miniasp.com/post/2010/08/20/UNIX2DOS-DOS2UNIX-Windows-Linux-Convertion]]
+* 把 windows 換行改為 unix 換行
+```
+$ find . -type f | xargs file | grep -i shell | grep -i CRLF | awk '{print $1}' | sed 's/\:$//g' | xargs sudo dos2unix -v '{}'
+```
+* 把 unix 換行改為 windows 換行
+```
+> # (待測試)
+```
