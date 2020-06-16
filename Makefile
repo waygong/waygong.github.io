@@ -9,7 +9,7 @@ diff:
 	git diff HEAD^..HEAD --stat
 edit:
 	tiddlywiki . --build index
-	cp tw5/output/index.html tiddlers/
+	cp output/index.html tiddlers/
 	/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe http://localhost:8765 &
 	tiddlywiki . --listen port=8765
 pull:
