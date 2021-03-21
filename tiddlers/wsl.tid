@@ -1,15 +1,27 @@
 created: 20200531051841040
-modified: 20200531053138943
+modified: 20210321121234504
 tags: shell platform-linux platform-windows app
 title: wsl
 type: text/vnd.tiddlywiki
 
 ! 安裝
-* wsl
+!! 我的步驟
+* 1. 到 Windows Store 搜尋 wsl 後，安裝想安裝的 Linux distribution (ex. Ubuntu) 18.04, Ubuntu 20.04)
+* 2. 系統管理員身分開啟 powershell 並執行下面這行
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+* 3. 好了以後會要你重開機，照做
+* 4. 重開機後，以下方式皆可啟動 WSL:
+** 4-1. 開啟命令提示字元輸入 bash 或 wsl 後按 Enter
+** 4-2. 按 Win 鍵輸入 bash 或 wsl 後按 Enter
+** 4-3. 開檔案總管，進到某資料夾後，在上方位置的輸入欄輸入 bash 或 wsl 後按 Enter (這樣你一開始的資料夾就會是檔案總管顯示的這個，方便直接操作該資料夾檔案，省去開啟後還需切換資料夾)
+
+!! 參考資料 (安裝 wsl)
 ** 官網 [[在 Windows 10 上安裝適用於 Linux 的 Windows 子系統 (WSL) ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/wsl/install-win10]]
 ** 保哥: [[All posts tagged 'WSL' ｜ The Will Will Web|https://blog.miniasp.com/?tag=WSL]]
 *** [[介紹好用工具：WSL (Windows Subsystem for Linux) ｜ The Will Will Web|https://blog.miniasp.com/post/2019/02/01/Useful-tool-WSL-Windows-Subsystem-for-Linux]]
 
-* wsl2
+!! 參考資料 (安裝 wsl2)
 ** 官網 [[安裝 WSL 2 ｜ Microsoft Docs|https://docs.microsoft.com/zh-tw/windows/wsl/wsl2-install]]
 ** [[Windows 10 WSL 2（Windows Subsystem for Linux）的安裝步驟 ｜ 簡睿隨筆 ｜ 學習過程的紀錄與備忘|http://jdev.tw/blog/6076/windows-10-wsl-2-installation]]
