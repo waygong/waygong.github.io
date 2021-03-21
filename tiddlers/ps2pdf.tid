@@ -1,0 +1,14 @@
+created: 20210321155008784
+modified: 20210321155155096
+tags: theme-pdf工具 shell wsl app
+title: ps2pdf
+type: text/vnd.tiddlywiki
+
+* 壓縮率很高
+```
+$ ps2pdf input.pdf output.pdf
+```
+
+! 參考資料
+
+* [[如何縮小掃描的PDF文件的文件大小？ - Ubuntu問答|https://ubuntuqa.com/zh-tw/article/127.html]]
