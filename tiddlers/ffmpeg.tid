@@ -1,0 +1,19 @@
+created: 20210321104051426
+modified: 20210321112413853
+tags: app shell wsl
+title: ffmpeg
+type: text/vnd.tiddlywiki
+
+* 將視訊 mp4  檔轉為音訊  mp3 檔
+```
+$ ffmpeg -i input.mp4 output.mp3
+```
+* 將視訊 mkv 檔轉為視訊 mp4 檔
+```
+$ ffmpeg -i input.mkv -codec copy output.mp4
+```
+
+! 參考資料
+* [[技术｜给新手的 20 多个 FFmpeg 命令示例|https://linux.cn/article-10932-1.html]]
+* [[ffmpeg如何將.mkv 文件無損轉換為.mp4 文件？_ubuntu_開發99|https://hant.kaifa99.com/ubuntu/article_157327]]
+* [[FFmpeg常用命令及参数 - 简书|https://www.jianshu.com/p/11b6c4eb9e49]]
